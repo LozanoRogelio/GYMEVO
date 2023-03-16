@@ -8,6 +8,6 @@ const Link = (props: Props) => {
          {page}
       </AnchorLink>
    )
-}
+};
 
 export default Link
