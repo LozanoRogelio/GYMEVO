@@ -33,13 +33,13 @@ function Home({ setSelectedPage }: Props) {
             </div>
           </div>
 
-          <p>
+          <p className="mt-8 text-sm">
           Unrivaled Gym. Unparalleled Training Fitness Classes. World Class Studios to get the Body Shapes That you Dream of.. Get Your Dream Body Now.
           </p>
         </div>
 
         {/* Actions */}
-        <div>
+        <div className="mt-8 flex items-center gap-8">
           <ActionButton setSelectedPage={ setSelectedPage} >
             Join Now
           </ActionButton>
@@ -54,14 +54,15 @@ function Home({ setSelectedPage }: Props) {
       </div>
 
       {/* Image */}
-      <div>
+      <div className='flex basis-3/5 justify-center md:z-10 md:ml-40 md:mt-16 md:justify-items-end'
+      >
         <img src={HomePageGraphic} alt="home-pageGraphic" />
       </div>
-    </div>
+      </div>
 
     {/* Sponsors */}
     {isAboveMediumScreens && (
-      <div>
+      <div className="h-[150px] w-full bg-primary-100 py-10">
         <div>
           <div>
             <img src={SponsorRedBull} alt="redbull-sponsor" />
