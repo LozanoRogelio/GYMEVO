@@ -7,6 +7,6 @@ const HText = (props: Props) => {
       <h1 className="basis-3/5 font-montserrat text-3xl font-bold"
       ></h1>
    )
-};
+}
 
 export default HText
